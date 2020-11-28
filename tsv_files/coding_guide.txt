@@ -1,0 +1,8 @@
+topics:
+(1) COVID, mask, pandemic
+(2) contesting election results, legitimacy, fraud
+(3) foreign relations
+(4) transition to biden administration, new policies, new appointments
+(5) current news on trump, comments he has made, things he is doing
+(6) demographic-specific news, hispanic, LGBT, black
+(7) other
