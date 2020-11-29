@@ -1,5 +1,5 @@
 # COMP598-FinalProject
-This is a repository for our COMP 598 final
+### This is a repository for our COMP 598 final
 
 **json_files:** this is where we have the filtered data pulled from the subreddits
 
