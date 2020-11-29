@@ -9,6 +9,8 @@ This is a repository for our COMP 598 final
 
 **coding_guide.txt:** this is the coding guide we came up with. we decided on 7 topics. it's not necessarily final, though
 
+**Google Doc for our report:** https://docs.google.com/document/d/1YJnycphcCySfwr1xeLret6FWY_amWnSyRgBILojs5-g/edit?usp=sharing
+
 ### TO DO
 - [x] collect data
 - [x] filter data 
