@@ -7,8 +7,8 @@ import csv
 
 # CONSTANTS
 num_posts = 333
-subs = ['politics']
-categories = ['top']
+subs = ['conservative']
+categories = ['hot']
 output_dir = 'raw_data'
 current_time = datetime.now().strftime("%Y-%m-%d")
 
