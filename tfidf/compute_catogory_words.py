@@ -44,11 +44,11 @@ def main():
     with open(args.word_counts, 'r') as fh:
         wordcounts = json.load(fh)
     
-    
-    tfidfs = {}
+   
     results = {}
     categories = (1,2,3,4,5,6,7,8)
     for i in categories:
+        tfidfs = {}
         for w in wordcounts[str(i)].keys():
             tfidfs[w] = new_tfidf(w, i)
         results[i] = sorted(tfidfs, key=tfidfs.get, reverse=True)[:10] 
