@@ -16,6 +16,6 @@
 - [x] filter data 
 - [x] open coding on 200 posts
 - [x] choose topics 
-- [ ] manual annotation of all posts
-- [ ] run tf-idf on our data
+- [x] manual annotation of all posts
+- [x] run tf-idf on our data
 - [ ] write report
