@@ -9,6 +9,7 @@ def main():
     parser.add_argument('-o')
     parser.add_argument('altogether_file')
     parser.add_argument('annotated_file')
+    parser.add_argument('--numlines')
 
     args = parser.parse_args()
     altogether = pd.read_csv(args.altogether_file, sep = '\t')
@@ -16,11 +17,12 @@ def main():
     words_file = osp.join(osp.dirname(__file__),'words_alpha.txt')
     words_list = pd.read_csv(words_file, header=None)
     words_set = set(words_list[0].values.tolist())
+    numlines =  int(args.numlines)
 
 
 # fill the coding column of the altogether df w/ 8s
 # if the row exists in altogether_annoted, then replace the 8 w/ what we annotated 
-    df =altogether.assign(coding = ['8']*2000)
+    df =altogether.assign(coding = ['8']*numlines)
     for name in annotated['name']:
         df.loc[df.name == name, 'coding'] = list(annotated.loc[annotated.name ==name, 'coding'])[0]
 #    print(df['coding'])
